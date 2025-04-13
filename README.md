@@ -44,7 +44,7 @@ Copy the following files to the directory:
 - `qubic-live-screensaver.scr`
 - `WebView2Loader.dll`
 
-These files are included in the `qubic-live-screensaver.zip` package.
+These files are included in the [qubic-live-screensaver.zip](https://github.com/AndyQus/qubic-live-screensaver/blob/main/qubic-live-screensaver.zip) package.
 
 ### 3. Add the Registry Entry
 
