@@ -1,6 +1,6 @@
 # Qubic Live Screensaver
 
-Creates a screensaver for Windows that displays the website [live.qubic.org](https://live.qubic.org).
+Creates a screensaver for Windows that displays the website `live.qubic.org`.
 
 ## Features
 
@@ -10,7 +10,7 @@ Creates a screensaver for Windows that displays the website [live.qubic.org](htt
 
 ## Development
 
-### Run
+### Start
 ```
 dotnet run
 ```
@@ -20,8 +20,11 @@ dotnet run
 dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./publish
 ```
 
-### Important
-In the /publish directory the .exe file must be renamed to .scr. 
+### Rename the *.exe file to a *.scr file
+```
+cp .\publis\qubic-live-screensaver.exe .\publish\qubic-live-screensaver.scr
+```
+
 
 
 ## Qubic Screensaver Installation Guide
